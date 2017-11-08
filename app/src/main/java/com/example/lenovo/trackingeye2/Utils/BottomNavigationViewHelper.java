@@ -4,6 +4,8 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.annotation.NonNull;
+import android.support.design.internal.BottomNavigationItemView;
+import android.support.design.internal.BottomNavigationMenuView;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AlertDialog;
 import android.util.Log;
@@ -14,6 +16,8 @@ import com.example.lenovo.trackingeye2.ProfileActivity;
 import com.example.lenovo.trackingeye2.R;
 import com.example.lenovo.trackingeye2.SettingActivity;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
+
+import java.lang.reflect.Field;
 
 /**
  * Created by Lenovo on 15/10/2017.
@@ -27,10 +31,14 @@ public class BottomNavigationViewHelper {
         bottomNavigationViewEx.enableAnimation(false);
         bottomNavigationViewEx.enableItemShiftingMode(false);
         bottomNavigationViewEx.enableShiftingMode(false);
-        bottomNavigationViewEx.setTextVisibility(false);
-
+        bottomNavigationViewEx.setTextVisibility(true);
+        bottomNavigationViewEx.setTextSize(10);
 
     }
+
+
+
+
 
     public static void enableNavigation(final Context context, BottomNavigationViewEx view){
         view.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {

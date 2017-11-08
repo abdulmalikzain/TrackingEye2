@@ -14,7 +14,8 @@
             android:background="@drawable/white_toska_border_top"
             app:menu="@menu/bottom_navigation_menu"
             app:itemIconTint="@drawable/drawer_item"
-            app:itemTextColor="@drawable/drawer_item" >
+            app:itemTextColor="@drawable/drawer_item"
+            android:showAsAction="always|withText">
 
         </com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx>
     </RelativeLayout>

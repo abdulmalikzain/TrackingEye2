@@ -17,15 +17,14 @@
         </RelativeLayout>
 
         <!--middle toolbar-->
-        <RelativeLayout
+
+
+        <android.support.v7.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/rellayout2"
-            android:layout_below="@id/rellayout1">
-
-            <include layout="@layout/layout_center_vewpager"/>
-        </RelativeLayout>
-
+            android:id="@+id/recyclerviewTemp"
+            android:layout_margin="5dp"
+            android:layout_below="@id/rellayout1"/>
 
     </RelativeLayout>
 

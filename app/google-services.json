@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "106809726994",
+    "firebase_url": "https://trackingeye2-e133a.firebaseio.com",
+    "project_id": "trackingeye2-e133a",
+    "storage_bucket": "trackingeye2-e133a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106809726994:android:986ee4e7f7d01579",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.trackingeye2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106809726994-05nha307h7q7efqeac29u1r19na4ljc5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.trackingeye2",
+            "certificate_hash": "6d2e84821a30441ecd26d3ec3ccba0c1aee838b2"
+          }
+        },
+        {
+          "client_id": "106809726994-mcuhd5j7vsgt8pnapr71u1p98mb7kqsm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV3crSSFdfhZRZ56MpCXl2MJRnlWmAeh4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106809726994-mcuhd5j7vsgt8pnapr71u1p98mb7kqsm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

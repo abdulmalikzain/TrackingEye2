@@ -6,4 +6,5 @@ package com.example.lenovo.trackingeye2.Utils;
 
 public class Server {
     public static final String URL = "http://trackingeye.tk/trackingeye/";
+    public static final String URL_DATA = "http://trackingeye.tk/trackingeye/view_data.php";
 }
